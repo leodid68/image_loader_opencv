@@ -67,3 +67,5 @@ image[0:cY, 0:cX] = (255, 0, 0)
 cv2.imshow("Carré bleu", image)
 # Attend qu'une touche soit pressée pour continuer
 cv2.waitKey(0)
+
+cv2.imwrite("Carre bleu.jpg", image)
