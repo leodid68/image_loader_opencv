@@ -1,20 +1,39 @@
-# Image Processing Project
+# OpenCV Image Processing & Drawing Examples
 
 ## Overview
-A simple Python project for loading and manipulating images using OpenCV library. This project provides basic functionality for loading, displaying, and saving images.
+A collection of Python examples and tests for image processing and drawing using the OpenCV library. This project serves as a learning resource and reference for common OpenCV operations.
 
 ## Features
-- Load images using command line arguments
-- Display image dimensions (width, height, channels)
-- Show images in a window
-- Save processed images
+- Basic image loading, displaying, and saving
+- Drawing shapes (lines, rectangles, circles, ellipses, polygons)
+- Adding text to images
+- Image manipulation techniques
+- Visual demonstrations of OpenCV functionality
+
+## Current Examples
+- **Drawing with OpenCV**: Creating shapes and text on a blank canvas
+  - Lines, rectangles, circles
+  - Ellipses and polygons
+  - Text rendering
 
 ## Requirements
 - Python 3.x
 - OpenCV (cv2)
-- argparse
+- NumPy
+- Matplotlib (for some examples)
+
+## Installation
 
 ## Usage
+Run the Jupyter notebooks to see the examples in action:
+
+## Project Structure
+- `drawing_opencv.ipynb`: Examples of drawing various shapes with OpenCV
+
+## Future Plans
+- Add image filtering examples
+- Implement basic computer vision algorithms
+- Create practical image processing applications
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
