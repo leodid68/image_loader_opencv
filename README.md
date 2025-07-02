@@ -1,52 +1,23 @@
-# OpenCV Image Processing & Drawing Examples
+# Image Loader & Processor avec OpenCV
 
-## Overview
-A collection of Python examples and tests for image processing and drawing using the OpenCV library. This project serves as a learning resource and reference for common OpenCV operations.
+Ce projet est une collection de notebooks Jupyter qui démontrent l'utilisation d'OpenCV pour le chargement, la manipulation et le traitement d'images.
 
-## Features
-- Basic image loading, displaying, and saving
-- Drawing shapes (lines, rectangles, circles, ellipses, polygons)
-- Adding text to images
-- Image manipulation techniques
-- Visual demonstrations of OpenCV functionality
+## Structure du projet
 
-## Current Examples
-- **Drawing with OpenCV**: Creating shapes and text on a blank canvas
-  - Lines, rectangles, circles
-  - Ellipses and polygons
-  - Text rendering
+Le projet est organisé en plusieurs dossiers thématiques:
 
-## Requirements
+- **getting_setting_pixels**: Manipulation des pixels individuels d'une image
+- **translate_open_cv_image**: Déplacement/translation d'images
+- **rotate_open_cv_image**: Rotation d'images
+- **resize_open_cv_image**: Redimensionnement d'images
+- **crop_open_cv_image**: Recadrage d'images
+
+## Prérequis
+
 - Python 3.x
-- OpenCV (cv2)
+- OpenCV (`cv2`)
 - NumPy
-- Matplotlib (for some examples)
+- Matplotlib
+- IPython
 
 ## Installation
-
-## Usage
-Run the Jupyter notebooks to see the examples in action:
-
-## Project Structure
-- `drawing_opencv.ipynb`: Examples of drawing various shapes with OpenCV
-
-## Future Plans
-- Add image filtering examples
-- Implement basic computer vision algorithms
-- Create practical image processing applications
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-- OpenCV library and contributors
-- Python imaging community
